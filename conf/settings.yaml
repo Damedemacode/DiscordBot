@@ -1,0 +1,29 @@
+bot:
+  token: MTI3MTI1MjA0MjAyNjk3NTI3Mg.GKkMj7.2amq3bkgfTZpFLZRvgKT2hRyNv6FudeKHgt9DE
+  prefix: /
+  embedColor: 0xe74c3c
+  guild: 1201188347322847252
+  adminRole: 1271255109871075348
+  event_promo: false #Нужен ли вам функции связанные с промокодами
+  event_birthday: false #Нужен ли вам функции связанные в датой рождения
+db:
+  host: localhost
+  login: root
+  password: timoxa992
+  database: bot
+rcon:
+  host: localhost
+  port: 3306
+  password: dame123
+web:
+  avatardir: ./avatar
+  skindir: ./skins
+  capedir: ./capes
+  url: http://localhost:8123
+  host: localhost
+  port: 8123
+  defaultAvatar: ./defaults/avatar.png
+  defaultSkin: ./defaults/skin.png
+  defaultCape: ./defaults/cape.png
+  url_launcher_exe: http://localhost:9274/Launcher.exe
+  url_launcher_jar: http://localhost:9274/Launcher.jar
